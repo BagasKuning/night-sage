@@ -1,10 +1,38 @@
 {
 	"name": "relaxing theme",
 	"colors": {
-		"editor.background": "#263238",
+		// editor background!!!
+		"editor.background": "#021324",
+		// sidebar background!!!
+		"sideBar.background": "#000e22",
+
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"activityBarBadge.background": "#00ccbb",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"activityBar.background": "#021324",
+		"activityBar.border": "#102a44",
+		"editorGroup.border": "#102a44",
+		
+		"sideBar.border": "#102a44",
+		"sideBar.foreground": "#aac4c2",
+		"sideBarSectionHeader.background": "#021324",
+		"sideBarSectionHeader.border": "#007ca1",
+		"sideBarSectionHeader.foreground": "#A1E7C0",
+		"statusBar.background": "#0070cc",
+		
+		"scrollbarSlider.activeBackground": "#00ccbb",
+		"scrollbarSlider.hoverBackground": "#00ccbb",
+		
+		// title
+		"titleBar.activeBackground": "#000e22",
+		"titleBar.border": "#00193b",
+		
+		// tab
+		"tab.activeForeground": "#c5f7db",
+		"tab.activeBackground": "#000e22",
+		"activityBar.activeBackground": "#006eff2d",
+		"tab.activeBorder": "#00ccbb",
+
 	},
 	"tokenColors": [
 		{
@@ -61,11 +89,8 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
 				"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
@@ -75,7 +100,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#d4f0fd"
 			}
 		},
 		{
@@ -86,7 +111,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ffb08b"
 			}
 		},
 		{
@@ -108,7 +133,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#8dc8ff"
 			}
 		},
 		{
@@ -149,7 +174,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#a1e7c0"
 			}
 		},
 		{
@@ -165,7 +190,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#F7D060"
 			}
 		},
 		{
@@ -238,7 +263,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#F5F3C1"
 			}
 		},
 		{
@@ -258,7 +283,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#dfff6b"
 			}
 		},
 		{
@@ -622,6 +647,25 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "text html",
+			"scope": [
+				"meta.jsx.children.js",
+				"punctuation.definition.tag",
+			],
+			"settings": {
+				"foreground": "#eef9ff",
+			}
+		},
+		{
+			"name": "text html",
+			"scope": [
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#b67fdb",
 			}
 		}
 	]
