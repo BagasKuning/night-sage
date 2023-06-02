@@ -1,0 +1,21 @@
+{
+  "name": "relaxing-theme",
+  "displayName": "relaxing theme",
+  "description": "relaxing theme!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "relaxing theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/relaxing theme-color-theme.json"
+      }
+    ]
+  }
+}
