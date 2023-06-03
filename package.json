@@ -1,7 +1,8 @@
 {
-  "name": "relaxing-theme",
-  "displayName": "relaxing theme",
-  "description": "relaxing theme!",
+  "publisher": "DwiBagaskara",
+  "name": "night-sage",
+  "displayName": "Night Sage",
+  "description": "dark blue sage",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
@@ -12,9 +13,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "relaxing theme",
+        "label": "night sage ",
         "uiTheme": "vs-dark",
-        "path": "./themes/relaxing theme-color-theme.json"
+        "path": "./themes/night-sage theme-color-theme.json"
       }
     ]
   }
