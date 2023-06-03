@@ -1,5 +1,22 @@
 {
-	"name": "night sage",
+	"name": "night-sage",
+	"displayName": "Night Sage Theme",
+	"description": "-",
+	"version": "1.0",
+	"publisher": "DwiBagaskara",
+	"respository": {
+		"type": "git",
+		"url": "https://github.com/BagasKuning/relaxing-theme",	
+	},
+	"keywords": [
+		"theme",
+		"dark theme",
+		"sage",
+		"blue",
+		"blue night",
+		"night sage",
+		"night sage theme"
+	],
 	"colors": {
 		// editor background!!!
 		"editor.background": "#021324",
