@@ -23,13 +23,15 @@
 		// sidebar background!!!
 		"sideBar.background": "#000e22",
 
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#00ccbb",
-		"sideBarTitle.foreground": "#bbbbbb",
-		"activityBar.background": "#031c35",
-		"activityBar.border": "#102a44",
 		"editorGroup.border": "#102a44",
+		"editor.foreground": "#eeffff",
 		
+		"activityBarBadge.background": "#00ccbb",
+		"activityBar.background": "#031c35",
+		"activityBar.activeBackground": "#006eff2d",
+		"activityBar.border": "#102a44",
+		
+		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.border": "#102a44",
 		"sideBar.foreground": "#aac4c2",
 		"sideBarSectionHeader.background": "#021324",
@@ -39,6 +41,8 @@
 		
 		"scrollbarSlider.activeBackground": "#00ccbb",
 		"scrollbarSlider.hoverBackground": "#00ccbb",
+
+		"minimap.background": "#000e22",
 		
 		// title
 		"titleBar.activeBackground": "#000e22",
@@ -47,9 +51,13 @@
 		// tab
 		"tab.activeForeground": "#c5f7db",
 		"tab.activeBackground": "#000e22",
-		"activityBar.activeBackground": "#006eff2d",
+		"tab.inactiveBackground": "#112138",
 		"tab.activeBorder": "#00ccbb",
-
+		"tab.hoverBackground": "#071120",
+		
+		//statusBar
+		"statusBar.debuggingBackground": "#ff0000",
+		"statusBar.noFolderBackground": "#ff0000",
 	},
 	"tokenColors": [
 		{
@@ -677,12 +685,21 @@
 			}
 		},
 		{
-			"name": "text html",
+			"name": "keyword control",
 			"scope": [
 				"keyword.control"
 			],
 			"settings": {
 				"foreground": "#b67fdb",
+			}
+		},
+		{
+			"name": "property name json",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#7FDBCA",
 			}
 		}
 	]
