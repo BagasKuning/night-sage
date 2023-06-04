@@ -4,7 +4,7 @@
   "displayName": "Night Sage",
   "description": "The Night Sage theme for Visual Studio Code (VSC) is a dark theme featuring an elegant combination of blue and sage (grey-green) shades. This theme is designed to provide a comfortable and enjoyable coding experience in the VSC environment.",
   "version": "0.6.0",
-  "icon": "images/logo.jpg",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.78.0"
   },
