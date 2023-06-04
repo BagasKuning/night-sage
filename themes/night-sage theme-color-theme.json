@@ -17,7 +17,7 @@
 		"editor.foreground": "#eeffff",
 		
 		"activityBarBadge.background": "#00ccbb",
-		"activityBar.background": "#031c35",
+		"activityBar.background": "#021527",
 		"activityBar.activeBackground": "#006eff2d",
 		"activityBar.border": "#102a44",
 		
@@ -679,6 +679,7 @@
 			],
 			"settings": {
 				"foreground": "#b67fdb",
+				"fontStyle": "italic"
 			}
 		},
 		{
